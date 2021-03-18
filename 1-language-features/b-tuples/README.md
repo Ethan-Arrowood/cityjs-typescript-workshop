@@ -101,6 +101,32 @@ type PrintAddressParams = Parameters<typeof printAddress>
 
 Try it on [TypeScript Playground](https://www.typescriptlang.org/play?#code/PTAECUFMBcFcCcB2oBGBDAxga1NA9rgBaSgDue8WAzoXgA5kCW0hRjVoANo4lgFyhC0aHSp8QAc2aFYKAHQY8AW2ABRFmkQBaAILx4ecngAmwDMwCeAKypboFupCoZ4jOtC3lKNesACMWpyaErBoEpBaAGaQaHDwTsAodrB0nAngqjoAIgCyqnJKxgDEiGhKkMbJqU4AsABQ9ZGwiBjQjHjIdK6I0DrGxvFUHAAUVNDxMAJj3RIANKDm9lPjPHOgAF5uisaQyzMAlKAA3gC+9fX2jqAACt29-YNU12jwZRwAvDcvZTCQ8FQAHkukDwkVAXR49wGTioAD56iBQFpYbgHCRbpC+tChs9XkoPqAANrTVZ7VbzRYWMmINabOjbXagEk0gC6QA)
 
+## Challenge
+
+Given a tuple type `Point`, write a function `distance` that destructures the `x` and `y` values from each point and then calculates the distance between the two 2D points.
+
+```ts
+type Point = [x: number, y: number]
+
+function distance (point1: Point, point2: Point) {
+  // todo
+
+  return Math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+}
+```
+
+Without using the `Point` type directly, write a new function `slope` that derives its argument types from the `distance` function.
+
+```ts
+function slope (/* todo */) {
+  return (args[1][1] - args[0][1]) / (args[1][0] - args[0][0])
+}
+```
+
+Hint: You'll need to use the spread `...` operator
+
+Try it on [TypeScript Playground](https://www.typescriptlang.org/play?#code/PTAECUFMBcFcCcB2oBGBDAxga1NA9rgBaSgDue8WAzoXgA5kCW0hRjVoANo4lgFyhC0aHSp8QAc2aFYKAHQY8AW2ABRFmkQBaAILx4ecngAmwDMwCeAKypboFupCoZ4jOtC3lKNesACMWpyaErBoEpBaAGaQaHDwTsAodrB0nAngqjoAIgCyqnJKxgDEGIRonGmI4QCwAFB19o6gAAp4PNCgALygANoAHgKIsEookPAANKAWg8Oj8AC6dXWRsIgY0Ix4yMbs0JoYJAAUdG2I0H4Cre2TJ+0ATJen0ACUoADedQCQIKAAwmUVSBVEh+L4-LJOaDwWDrBAkFgkPqgTTGKagABu5VgTlAkQMSlAMVKoFuZ2R8BCSiB0CWtU+8TiyBysUIcioAEd4NBDoc+ndQFpQH0-M8AFSi-kAalAhws-MFFhF4ruzzqAF9aYpEFQ8Gk5Jw8BJDjsqHs1pBDj0AAzjK3zSY9ADM4wALPNnq8floAHygACsMqgVJGYxaFg0EgoMWQULcaSoAH5VfVasBRXVQKK-gDKuFQHcM1mAOrSPCwDqwKg8CREEgAAyuZzruAcJB28XWnAsk1IrmgJDQoEQkFIuNW602yDrVANjmbGg6xjGjHROOYHDQFOG1Jbjg4eOUtdAdZNZoOzZWaw2WzkhcLoAAEu0BABNMsAcgqQ8gkFR+FAlbwsQoBUHQ8RoKidZyNBzb0GMsQUIWwDLOO17IDOcEyq8Hx0gyCDIIcm4SFQPR+PMpHzAK5LEda5FkZ6MpESRZG0VRTG0bRyYarUQA)
+
 ## TypeScript Playground Examples
 
 Much of the content in this lesson was based on the excellent examples provided by the TypeScript site.
