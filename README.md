@@ -16,6 +16,7 @@ Additionally, it is recommended you clone or download this repo so you have dire
 1. Locally using `ts-node`
 	- First, install `typescript` and `ts-node` as global npm modules on your system using `npm i -g typescript ts-node`
 	- Run any `*.ts` file using `ts-node script.ts` in your terminal
+	- Alternatively, use `npx ts-node` and skip global module installation
 2. In browser using [TypeScript Playground](https://www.typescriptlang.org/play)
 	- All sections in this workshop have a corresponding [Run in TypeScript Playground](https://www.typescriptlang.org/play?#code/PTAECUFMBcFcCcB2oBGBDAxga1NA9rgBaSgDue8WAzoXgA5kCW0hRjVoANo4lgFyhC0aHSp8QAc2aFYKAHQY8AW2ABRFmkQBaAILx4ecngAmwDMwCeAKypboFupCoZ4jOtC3lKNegChfiohUeJyQcpx4EgAUAOQAEpCcEQA0oADqFJzGAIQxAJRAA) link that will open the relative code block in your default browser.
 
