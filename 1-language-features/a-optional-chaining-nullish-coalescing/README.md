@@ -124,7 +124,7 @@ Try it on [TypeScript Playground](https://www.typescriptlang.org/play?#code/PTAE
 
 Together, optional chaining and nullish coalescing are powerful. Consider a complex `input` argument. It could be an object with many different properties, some that could be `null` or `undefined`. And with this `input`, the function has to derive a new object that properly defaults certain values. By utilizing both operations, the function can be thoroughly simplified.
 
-### Example
+### Challenge
 
 Pretend you work for a pet foster and adoption agency. You had some old pet records and are trying to retrieve all of the previous foster home addresses for your new database. Given the following type definitions and a list of pet records, write a function that returns a new list of the pet record **foster** home addresses.
 

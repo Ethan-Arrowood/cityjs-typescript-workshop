@@ -76,6 +76,15 @@ const pets: Pet[] = [
 	}
 ]
 
+/*
+ * Challenge:
+ * Pretend you work for a pet foster and adoption agency.
+ * You had some old pet records and are trying to retrieve
+ * all of the previous foster home addresses for your new database.
+ * Given the following type definitions and a list of pet records,
+ * write a function that returns a new list of the pet record
+ * foster home addresses.
+ */
 function getFosterHomeAddresses (pets: Pet[]) {
 	// todo
 }
