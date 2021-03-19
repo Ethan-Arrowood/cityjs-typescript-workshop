@@ -1,0 +1,3 @@
+{
+	"include": ["index.ts", "library.ts", "math.ts", "numbers.ts", "service.ts", "service2.ts"]
+}
