@@ -1,0 +1,3 @@
+{
+	"include": ["animal.ts", "zoo.ts"]
+}
