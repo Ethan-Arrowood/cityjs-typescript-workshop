@@ -20,21 +20,14 @@ Additionally, it is recommended you clone or download this repo so you have dire
 2. In browser using [TypeScript Playground](https://www.typescriptlang.org/play)
 	- All sections in this workshop have a corresponding [Run in TypeScript Playground](https://www.typescriptlang.org/play?#code/PTAECUFMBcFcCcB2oBGBDAxga1NA9rgBaSgDue8WAzoXgA5kCW0hRjVoANo4lgFyhC0aHSp8QAc2aFYKAHQY8AW2ABRFmkQBaAILx4ecngAmwDMwCeAKypboFupCoZ4jOtC3lKNegChfiohUeJyQcpx4EgAUAOQAEpCcEQA0oADqFJzGAIQxAJRAA) link that will open the relative code block in your default browser.
 
-## Language Features
+## Table of Contents
 
-### Optional Chaining, Nullish Coalescing
-
-### Tuples
-
-### Imports
-
-### Overrides, Overloads, and Merging
-
-## Project Tooling
-
-### tsconfig.json
-
-### Linting
-
-### Testing
-
+- Language Features
+	- [Optional Chaining & Nullish Coalescing](./1-language-features/a-optional-chaining-nullish-coalescing)
+	- [Tuples](./1-language-features/tuples)
+	- [Imports](./1-language-features/imports)
+	- [Function Overloading](./1-language-features/function-overloading)
+	- [Template Literal Types](./1-language-features/template-literal-types)
+	- [Declaration Merging](./1-language-features/declaration-merging)
+- Project Tooling
+	- [Linting](./2-project-tooling/b-linting)
