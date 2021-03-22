@@ -24,10 +24,10 @@ Additionally, it is recommended you clone or download this repo so you have dire
 
 - Language Features
 	- [Optional Chaining & Nullish Coalescing](./1-language-features/a-optional-chaining-nullish-coalescing)
-	- [Tuples](./1-language-features/tuples)
-	- [Imports](./1-language-features/imports)
-	- [Function Overloading](./1-language-features/function-overloading)
-	- [Template Literal Types](./1-language-features/template-literal-types)
-	- [Declaration Merging](./1-language-features/declaration-merging)
+	- [Tuples](./1-language-features/b-tuples)
+	- [Imports](./1-language-features/c-imports)
+	- [Function Overloading](./1-language-features/d-function-overloading)
+	- [Template Literal Types](./1-language-features/e-template-literal-types)
+	- [Declaration Merging](./1-language-features/f-declaration-merging)
 - Project Tooling
 	- [Linting](./2-project-tooling/b-linting)
