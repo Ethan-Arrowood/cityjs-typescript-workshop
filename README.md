@@ -30,4 +30,5 @@ Additionally, it is recommended you clone or download this repo so you have dire
 	- [Template Literal Types](./1-language-features/e-template-literal-types)
 	- [Declaration Merging](./1-language-features/f-declaration-merging)
 - Project Tooling
-	- [Linting](./2-project-tooling/b-linting)
+	- [Linting](./2-project-tooling/a-linting)
+	- [Testing](./2-project-tooling/b-testing)
